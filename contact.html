@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Write your comment -->
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Group 1">
+    <meta name="keywords" content="Extracurricular, School, Gaming, ">
+    <meta name="description" content="A great online resource dedicated to showing the importance of extracurricular activites!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style/main.css" rel="stylesheet" type="text/css">
+    <link href="style/main3.css" rel="stylesheet" type="text/css">
+    <link href="style/contactmedia.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body>
+    <div class="container">
+    <!-- Navigation tool bar, CSS must be implemented, thinking about making it a fixed position on the right. -->
+    <nav>
+        <img title="logo" alt="logo" src="img/logo.png">
+        <div id="navbar">
+            <a href="index.html">Home</a>
+            <a href="progaming.html">Pro Gaming</a>
+            <a href="contact.html">Contact us</a>
+            <a href="about.html">About Us</a>
+            <a href="https://lastdoor.org/resource/gaming-addiction-treatment/" target="_blank">Get Help</a>
+        </div>    
+    </nav>
+    <main>
+        <div>
+            <form method="post" action="mailto:Smesa479@mtroyal.ca">
+                <br>
+                <br>
+                <h2>Personal Information</h2>
+                <div id="wrapper">
+                <label>Name
+                    <input type="text" name="subject" required maxlength="20">
+                </label>
+                <!-- <br> -->
+                <label>Subject
+                    <input type="text" name="subject" required maxlength="20">
+                </label>
+                <!-- <br> -->
+                <label>Email
+                    <input type="email" placeholder="aaa@xmail.com" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                </label>
+                <!-- <br> -->
+                <label>Telephone (Optional)
+                    <input type="tel" placeholder="123-123-1234" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}">
+                </label>
+                <!-- <br> -->
+                <label>Date
+                    <input type="date" name="date">
+                </label>
+                <!-- <br> -->
+                <label id="comments">Comments
+                    <textarea name="comment" rows="5" cols="25" required></textarea>
+                </label>
+                <!-- <br> -->
+
+                <h3>Choose your gender</h3>
+                <div id="options1">
+                <label>
+                    <input type="radio" name="Gender" value="male">
+                    Male
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="Gender" value="female">
+                    Female
+                </label>
+                </div>
+                <!-- <br> -->
+                <h3>Select your Genres</h3>
+                <div id="options2">
+                <label>
+                    <input type="checkbox" name="adventorous game" value="Game">
+                    Adventorous Game
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox" name="horror game" value="Game">
+                    Horror Game
+                </label>
+                </div>
+                <!-- <br>
+                <br> -->
+                <div id="buttons">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+                </div>
+            </div>  
+            </form>
+            </div>
+    </main>
+    <footer>
+        <div id="map">
+            <ul>        
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="footerinfo">
+            <p>Assignment 1, COMP 2511</p>
+            <p>Group 1</p> 
+            <p>Importance of extra-curriculars</p>
+        </div>    
+    </footer>
+  </div>
+</body>
+</html>

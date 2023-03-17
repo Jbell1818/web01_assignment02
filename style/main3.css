@@ -1,0 +1,65 @@
+h2{
+    color: blueviolet;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+input[type=tel], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+input[type=email], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+input[type=date], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+input[type=submit], select {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+input[type=submit]:hover {
+    background-color: #555555;
+}
+input[type=reset], select {
+    width: 10%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+input[type=reset]:hover {
+    background-color: #555555;
+}
+textarea, select {
+    height: 50%;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    box-sizing: border-box;
+}

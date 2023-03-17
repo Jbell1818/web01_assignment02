@@ -1,0 +1,87 @@
+nav {
+    width: 100%;
+    background-image: linear-gradient(90deg, hsla(154, 100%, 76%, 1) 0%, hsla(234, 100%, 83%, 1) 50%, hsla(288, 100%, 81%, 1) 100%);
+    position: fixed;
+    top:0px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#051014;
+    font-size: x-large;
+    padding: 0px 20px 0px 20px;
+    border: 3px black;
+    border-style: solid;
+    text-decoration: none;
+    border-radius: 30px;
+    
+}
+nav a:hover{
+    background-color: #eca0fF;
+}
+nav img {
+    height:35px;
+    display: block;
+    position: absolute;
+}
+
+header h1 {
+    color: white;
+    font-size: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    position:absolute;
+    top: 27%;  
+    right: 40%;
+    text-shadow: 5px 5px black;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 100px;
+}
+.blurb {
+    border: 2px black;
+    border-style:solid;
+    border-radius: 20px;
+    padding:10px;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    background-color: #aab2ff;
+    margin:10px;
+}
+
+.blurb p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium
+}
+
+.blurb h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    background-color:#84ffc9;
+}
+footer {
+    background-color: #A0E4C6;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.gaminginfo {
+    position: relative;
+    top: 60px;
+}
+
+footer {
+    position: relative;
+    top: 100px;
+    margin: 0px;
+}

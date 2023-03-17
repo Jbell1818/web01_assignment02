@@ -1,0 +1,45 @@
+#wrapper3 {
+  display: grid;
+  padding: 132px;
+}
+.blurb2 {
+  border: 2px black;
+  border-style:solid;
+  border-radius: 20px;
+  background-color: #aab2ff;
+  padding: 3px;
+}
+#aboutus {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 99%;
+    margin-left: 4px; 
+    border-style:solid;
+    border-color: black;
+    border-radius: 10px;
+  }
+
+#aboutus th {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:  #8abcce;
+    font-size: 200%;
+    text-align: center;
+    
+  }
+  #aboutus td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }  
+  #aboutus tr {
+      color: white;
+  } 
+  
+  tr:nth-child(3){
+   background-color:  #23b7b7;
+  }
+  tr:nth-child(4){
+   background-color:  gray;
+  }
+  tr:nth-child(5){
+   background-color:   #23b7b7;
+  }

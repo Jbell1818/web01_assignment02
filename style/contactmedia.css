@@ -1,0 +1,163 @@
+@media screen and (min-width:590px) {
+    #wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+    main{
+
+        margin-top: 50%;
+
+    }
+    
+    h2{
+        margin-top: 10%;
+    }
+    input[type=submit], select {
+    width: 100%;
+    }
+    input[type=reset], select {
+    width: 100%;
+    }
+    nav{
+width: 91%;
+
+
+}
+nav img{
+display: inline;
+height: 100px;
+width: 100px;
+position: relative;
+}
+#navbar{
+display: grid;
+gap: 10px;
+
+}
+nav a {
+border-radius: 30px;
+/* padding: 5px 2px 5px 2px; */
+position: relative;
+width: 50%;  
+left: 20%;
+top: 30%;
+}
+header h1{
+
+top: 60%;
+font-size: 50px;
+left: 30%;
+position: absolute;
+}
+header img{ 
+/* top: 49%; */
+height: 600px;
+position: relative;
+margin-top: 40%;
+width: 100%;
+display: block;
+
+/* position: absolute;  */
+}
+}
+@media screen and (min-width:630px) {
+    #wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    }
+
+    header img{ 
+    margin-top: 40%;
+    height: 600px;
+    }
+    h2{
+        margin-top: 10%;
+    }
+    h3{
+        grid-column: 1/3;
+    } 
+    input[type=text], select {
+    width: 60%;
+    display: inline;
+    }
+    input[type=email], select {
+    width: 60%;
+    display: inline;
+    }
+    input[type=tel], select {
+    width: 25%;
+    display: inline;
+    }
+    input[type=date], select {
+    width: 60%;
+    display: inline;
+    }
+    input[type=submit], select {
+    width: 100%;
+    }
+    input[type=reset], select {
+    width: 100%;
+    }
+    #comments{
+        grid-column: 1;
+    }
+    #options1{
+        display: flex;
+        gap: 10px
+    }
+    #options2{
+        display: flex;
+        gap: 10px
+    }   
+    #buttons{
+        margin-top: 10%;
+        /* margin-right: 50%; */
+        right: 100%;
+        display: flex;
+        position: relative;
+        gap: 20px
+    }
+}
+   
+@media screen and (min-width:700px) {
+    
+    body{
+        background-image: linear-gradient(red, blue, purple);
+    }
+    .container{
+        width: 790px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(red, blue, purple);
+    }
+    main{
+        background-color: #84ffc9;;
+        margin-top: 10%;
+        height: 200%;
+    }
+
+    nav{
+        background-color: #84ffc9;
+        width: 82.5%;
+    }
+   
+    nav img {
+        height:35px;
+        width: 36px;
+        display: block;
+        margin-bottom: 2%;
+    }
+
+    #navbar{
+        display:inline-block;
+        position: relative;
+        right: 22%;
+        gap: 20px;
+        text-align: center;
+        align-items: center;
+        justify-items: center;
+    }
+   
+}
